@@ -1,0 +1,37 @@
+# Core Dependencies
+PyQt6>=6.7.0         # UI framework
+anthropic>=0.40.0    # Claude AI API client
+watchdog>=3.0.0      # File system monitoring
+pathlib>=1.0.1       # Path manipulation utilities
+
+# File Processing
+python-magic>=0.4.27  # File type detection
+Pillow>=10.2.0       # Image processing
+python-docx>=1.0.0   # Word document processing
+PyPDF2>=3.0.0        # PDF processing
+chardet>=5.2.0       # Character encoding detection
+
+# Database
+SQLAlchemy>=2.0.25   # ORM and database operations
+aiosqlite>=0.19.0    # Async SQLite support
+
+# Async Support
+aiofiles>=23.2.1     # Async file operations
+asyncio>=3.4.3       # Async programming support
+
+# Development Dependencies
+pytest>=8.0.0        # Testing framework
+pytest-asyncio>=0.23.5  # Async test support
+pytest-qt>=4.3.1     # Qt testing utilities
+black>=24.1.1        # Code formatting
+isort>=5.13.2        # Import sorting
+flake8>=7.0.0        # Code linting
+mypy>=1.8.0          # Type checking
+
+# Documentation
+Sphinx>=7.2.6        # Documentation generator
+sphinx-rtd-theme>=2.0.0  # Documentation theme
+autodoc>=0.5.0       # API documentation generator
+
+# Optional Dependencies
+python-magic-bin>=0.4.14; platform_system == "Windows"  # Windows support for python-magic
